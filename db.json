@@ -1,0 +1,34 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "title": "First Article",
+        "content": "Hello, world"
+      },
+      {
+        "id": 2,
+        "title": "Second Article",
+        "content": "Nice to meet you"
+      },
+      {
+        "id": 3,
+        "title": "Third Article",
+        "content": "How are you"
+      },
+      {
+        "id": 4,
+        "title": "Fourth Article",
+        "content": "I'm good"
+      },
+      {
+        "id": 5,
+        "title": "Fifth Article",
+        "content": "Not good"
+      },
+      {
+        "id": 6,
+        "title": "Sixth Article",
+        "content": "I'm great"
+      }
+    ]
+  }
