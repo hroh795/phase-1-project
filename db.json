@@ -3,32 +3,38 @@
       {
         "id": 1,
         "title": "First Article",
-        "content": "Hello, world"
+        "content": "Hello, world",
+        "color":"red"
       },
       {
         "id": 2,
         "title": "Second Article",
-        "content": "Nice to meet you"
+        "content": "Nice to meet you",
+        "color":"blue"
       },
       {
         "id": 3,
         "title": "Third Article",
-        "content": "How are you"
+        "content": "How are you",
+        "color":"green"
       },
       {
         "id": 4,
         "title": "Fourth Article",
-        "content": "I'm good"
+        "content": "I'm good",
+        "color":"yellow"
       },
       {
         "id": 5,
         "title": "Fifth Article",
-        "content": "Not good"
+        "content": "Not good",
+        "color":"purple"
       },
       {
         "id": 6,
         "title": "Sixth Article",
-        "content": "I'm great"
+        "content": "I'm great",
+        "color":"indigo"
       }
     ]
   }
