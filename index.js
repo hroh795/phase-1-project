@@ -19,11 +19,15 @@ addEventListener('DOMContentLoaded', (event) => {
          let meow = document.createElement("div")
          meow.innerHTML = "meow"
          titleDiv.appendChild(meow)
-}
+
+
 
    function myFunction() {
       var x = document.getElementById("myInput");
       document.getElementById("demo").innerHTML = "You are searching for: " + x.value;
    }
 
+   document.getElementById("myInput").addEventListener("search", myFunction)
+
+}
 });

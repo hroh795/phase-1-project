@@ -2,39 +2,33 @@
     "cats": [
       {
         "id": 1,
-        "title": "First cat",
-        "content": "meau",
+        "title": "British Shorthair",
         "image": "/Users/hayoungroh/Development/code/phase-1-project/cute_cat.jpg"
       },
       {
         "id": 2,
-        "title": "Second Article",
-        "content": "Nice to meet you",
-        "color":"blue"
+        "title": "Persian Cats",
+        "image": ""
       },
       {
         "id": 3,
-        "title": "Third Article",
-        "content": "How are you",
-        "color":"green"
+        "title": "Maine Coon Cats",
+        "image": ""
       },
       {
         "id": 4,
-        "title": "Fourth Article",
-        "content": "I'm good",
-        "color":"yellow"
+        "title": "American Shorthair Cats",
+        "image": ""
       },
       {
         "id": 5,
-        "title": "Fifth Article",
-        "content": "Not good",
-        "color":"purple"
+        "title": "Scottish Fold Cats",
+        "image": ""
       },
       {
         "id": 6,
-        "title": "Sixth Article",
-        "content": "I'm great",
-        "color":"indigo"
+        "title": "Siamese",
+        "image": ""
       }
     ]
   }
