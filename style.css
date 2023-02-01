@@ -14,5 +14,6 @@ h2 {
 }
 
 p{
-    color: purple
+    color: purple;
+    font-style: italic;
 }
