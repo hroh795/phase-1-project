@@ -2,32 +2,32 @@
     "cats": [
       {
         "id": 1,
-        "title": "British",
+        "breed": "British",
         "image": "/Users/hayoungroh/Development/code/phase-1-project/cute_cat.jpg"
       },
       {
         "id": 2,
-        "title": "Persian",
+        "breed": "Persian",
         "image": ""
       },
       {
         "id": 3,
-        "title": "Mainecoon",
+        "breed": "Mainecoon",
         "image": ""
       },
       {
         "id": 4,
-        "title": "Americanshorthair",
+        "breed": "Americanshorthair",
         "image": ""
       },
       {
         "id": 5,
-        "title": "Scottishfold",
+        "breed": "Scottishfold",
         "image": ""
       },
       {
         "id": 6,
-        "title": "Siamese",
+        "breed": "Siamese",
         "image": ""
       }
     ]
