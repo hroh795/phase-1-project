@@ -6,8 +6,6 @@ Cute Cats single page website is a webpage for having fun with cats. The purpose
 
 ##Usage
 
-// expected output if you can
-
 If the user clicks the title 'Cute Cats,' the title changes to 'Cute Cats Are Cute!'
 If the user hovers over 'what does the cat say?' then 'meow' appears on the website. There is also an input square where the user inputs one of the cat breeds. Then, that specific cat breed picture appears on the website.
 
