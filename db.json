@@ -17,12 +17,12 @@
       },
       {
         "id": 4,
-        "breed": "Americanshorthair",
+        "breed": "American Shorthair",
         "image": "/Users/hayoungroh/Development/code/phase-1-project/img/american-shorthair-detail.jpg"
       },
       {
         "id": 5,
-        "breed": "Scottishfold",
+        "breed": "Scottish Fold",
         "image": "/Users/hayoungroh/Development/code/phase-1-project/img/scottish-fold-cat.jpg"
       },
       {
