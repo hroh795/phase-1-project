@@ -3,32 +3,32 @@
       {
         "id": 1,
         "breed": "British",
-        "image": "/Users/hayoungroh/Development/code/phase-1-project/img/british.jpeg"
+        "image": "/Users/hayoungroh/Development/code/phase-1-project/british.jpeg"
       },
       {
         "id": 2,
         "breed": "Persian",
-        "image": "/Users/hayoungroh/Development/code/phase-1-project/img/persian_cat.jpeg"
+        "image": "/Users/hayoungroh/Development/code/phase-1-project/persian_cat.jpeg"
       },
       {
         "id": 3,
         "breed": "Maine Coon",
-        "image": "/Users/hayoungroh/Development/code/phase-1-project/img/Maine-Coon-Cat.webp"
+        "image": "/Users/hayoungroh/Development/code/phase-1-project/Maine-Coon-Cat.webp"
       },
       {
         "id": 4,
         "breed": "American Shorthair",
-        "image": "/Users/hayoungroh/Development/code/phase-1-project/img/american-shorthair-detail.jpg"
+        "image": "/Users/hayoungroh/Development/code/phase-1-project/american-shorthair-detail.jpg"
       },
       {
         "id": 5,
         "breed": "Scottish Fold",
-        "image": "/Users/hayoungroh/Development/code/phase-1-project/img/scottish-fold-cat.jpg"
+        "image": "/Users/hayoungroh/Development/code/phase-1-project/scottish-fold-cat.jpg"
       },
       {
         "id": 6,
         "breed": "Siamese",
-        "image": "/Users/hayoungroh/Development/code/phase-1-project/img/Siamese_cat_1110x740.jpg"
+        "image": "/Users/hayoungroh/Development/code/phase-1-project/Siamese_cat_1110x740.jpg"
       }
     ]
   }
