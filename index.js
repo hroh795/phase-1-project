@@ -3,7 +3,6 @@ addEventListener('DOMContentLoaded', (event) => {
    const title = document.getElementById("title")
    const titleDiv = document.getElementById("titleDiv")
    const more = document.getElementById("more")
-   const button = document.getElementById("clickcat")
 
    
    title.addEventListener("click", addSecondTitle)
@@ -16,15 +15,17 @@ addEventListener('DOMContentLoaded', (event) => {
    
    function meow(){
    
-         let meow = document.createElement("div")
+         const meow = document.createElement("div")
          meow.setAttribute("id", "meow");
          meow.innerHTML = "meow"
          titleDiv.appendChild(meow)
    }
 
+   document.getElementById("myInput").addEventListener("search", myFunction)
+
    function myFunction(){
-      var x = document.getElementById("myInput").value;
-      let img = document.createElement("img")
+      const x = document.getElementById("myInput").value;
+      const img = document.createElement("img")
       document.getElementById("demo").append(img)
       
       fetch("http://localhost:3000/cats")
@@ -32,15 +33,11 @@ addEventListener('DOMContentLoaded', (event) => {
          return response.json();
       })
       .then(function (data) {
-         console.log('x',x)
-         let breedName = data.find(cat =>cat.breed ===x)
-         console.log(breedName)
-         let index =data.indexOf(breedName);
-         console.log(index)
+         const breedName = data.find(cat =>cat.breed ===x)
+         const index =data.indexOf(breedName);
          img.src = data[index].image
       });
    }
 
-   document.getElementById("myInput").addEventListener("search", myFunction)
 
 })
