@@ -21,7 +21,7 @@ addEventListener('DOMContentLoaded', (event) => {
          titleDiv.appendChild(meow)
    }
 
-   document.getElementById("myInput").addEventListener("search", myFunction)
+   document.getElementById("enter").addEventListener("click", myFunction)
 
    function myFunction(){
       const x = document.getElementById("myInput").value;
@@ -38,6 +38,12 @@ addEventListener('DOMContentLoaded', (event) => {
          img.src = data[index].image
       });
    }
-
-
 })
+
+const log = document.getElementById('demo')
+
+document.getElementById("myInput").addEventListener("keydown", logKey)
+
+function logKey(e) {
+   log.textContent += `cats can move ${e.code}`
+}
