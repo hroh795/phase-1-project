@@ -26,8 +26,9 @@ addEventListener('DOMContentLoaded', (event) => {
    function myFunction(){
       const x = document.getElementById("myInput").value;
       const img = document.createElement("img")
-      document.getElementById("demo").append(img)
-      
+
+      const catImg = document.getElementById("catImg")
+      catImg.append(img)
       fetch("http://localhost:3000/cats")
       .then(function (response) {
          return response.json();
@@ -40,10 +41,10 @@ addEventListener('DOMContentLoaded', (event) => {
    }
 })
 
-const log = document.getElementById('demo')
+const log = document.getElementById('keydownText')
 
-document.getElementById("myInput").addEventListener("keydown", logKey)
+document.getElementById("keydown").addEventListener("keydown", logKey)
 
 function logKey(e) {
-   log.textContent += `cats can move ${e.code}`
+   log.textContent += ` cats can move ${e.code}`
 }
